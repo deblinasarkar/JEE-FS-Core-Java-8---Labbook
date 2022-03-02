@@ -1,0 +1,61 @@
+package co.deblina;
+import java.util.*;
+import java.util.Date;
+public class string2 {
+ private string2()
+ {
+	 
+ }
+ public static int getint(String msg)
+ {
+	 System.out.print(msg);
+	 Scanner sc=new Scanner(System.in);
+	 return sc.nextInt();
+ }
+ public static double getdouble(String msg)
+ {
+	 System.out.print(msg);
+	 Scanner sc=new Scanner(System.in);
+	 return sc.nextDouble();
+ }
+ public static String getstring(String msg)
+ {
+	 System.out.print(msg);
+	 Scanner sc=new Scanner(System.in);
+	 return sc.nextLine();
+ }
+ public static Date getdate(String msg)
+ {
+	 String pattern="yyyy-MM-dd";
+	 SimpleDateFormat sdf=new SimpleDateFormat(pattern);
+	 System.out.print(msg);
+	 Scanner sc=new Scanner(System.in);
+	 String input=sc.nextLine();
+	 try
+	 {
+		return sdf.parse(input);
+	 } catch(ParseException e)
+	 {
+		 return null;
+	 }
+ }
+ 
+ public static void main(String[] args)
+ {
+	 String name;
+	 int age;
+	 double height;
+	 Date dob;
+	 
+	 name=getstring("enter name");
+	 age=getint("enter age");
+	 height=getdouble("enter height");
+	 dob=getdate("enter your date of birth");
+	 
+	 System.out.print(name);
+	 System.out.print(age);
+	 System.out.print(height);
+	 System.out.print(dob);
+ }
+ 
+}

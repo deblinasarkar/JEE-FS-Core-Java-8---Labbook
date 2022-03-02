@@ -1,0 +1,26 @@
+package lab3;
+
+import java.util.*;
+
+public class ex3 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String s=sc.nextLine();
+		String r=alterString (s);
+		System.out.println(r);
+}
+	public static String alterString(String s)
+	{
+		String p="";
+		int k=0;
+		char[] c=s.toCharArray();
+		for(int i=0;i<c.length;i++)
+		{
+			if(c[i]!='A' && c[i]!='E' && c[i]!='I' && c[i]!='O' && c[i]!='U' && c[i]!='a' && c[i]!='e' && c[i]!='i' && c[i]!='o' && c[i]!='u')
+			{
+				char[k]=c[i]+1;
+				k++;
+			}
+		}
+	}
+}

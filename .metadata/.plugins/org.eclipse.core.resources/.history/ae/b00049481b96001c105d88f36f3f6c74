@@ -1,0 +1,12 @@
+package com.cg.feb22.oop.intro;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+public class DateDemo {
+public static void main(String[] args) {
+	LocalDate date=LocalDate.now();
+	System.out.println(date);
+	
+	LocalDateTime ldt=LocalDateTime.now();
+	System.out.println(ldt);
+}
+}

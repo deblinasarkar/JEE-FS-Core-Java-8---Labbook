@@ -1,0 +1,30 @@
+package lab1;
+import java.util.*;
+
+public class ex7 {
+public static void main(String[] args) {
+	int n;
+	Scanner sc=new Scanner(System.in);
+	n=sc.nextInt();
+	boolean b=ex7.increasing(n);
+}
+public static boolean increasing(int n)
+{
+	int temp=n,r=1;
+	boolean c=false;
+	while(temp!=0)
+	{
+		r=temp%10;
+		if(r<=temp%10)
+		{
+			c=true;
+			break;
+		}
+		temp=temp/10;
+	}
+	if(c)
+		return false;
+	else
+		return true;
+}
+}

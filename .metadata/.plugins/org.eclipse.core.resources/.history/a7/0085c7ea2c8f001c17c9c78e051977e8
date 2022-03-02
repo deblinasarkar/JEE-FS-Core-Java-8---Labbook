@@ -1,0 +1,36 @@
+import java.util.*;
+public class productofdigit {
+ public static void main(String[] args)
+ {
+	 int a;
+	 Scanner sc=new Scanner(System.in);
+	 a=sc.nextInt();
+	 if(product(a)==-1)
+	 {
+		 System.out.println("Invalid Input");
+	 }
+	 else
+	 {
+		 System.out.println(product(a));
+	 }
+	 
+	 
+ }
+ public static int product(int a)
+ {
+	 if(a<0 || a>32767)
+	 {
+		 return -1;
+	 }
+	 else {
+		 int s=0,r=1;;
+		 while(a!=0)
+		 {
+			 r=a%10;
+			 s=s*r;
+			 a=a/10;
+		 }
+		 return s;
+	 }
+ }
+}

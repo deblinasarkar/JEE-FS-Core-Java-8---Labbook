@@ -1,0 +1,24 @@
+package lab3;
+import java.util.*;
+
+public class ex2 {
+public static void main(String[] args) {
+	String s;
+	Scanner sc=new Scanner(System.in);
+	s=sc.nextLine();
+	String r=getImage(s);
+	System.out.println(r);
+}
+public static String getImage(String s)
+{
+	String r="";
+	char[] c=s.toCharArray();
+	for(int i=0;i<c.length;i++)
+	{
+		c[c.length-i-1]=s.charAt(i);
+	}
+	r=new String(c);
+	String f=s+"|"+r;
+	return f;
+}
+}

@@ -1,0 +1,26 @@
+package lab1;
+import java.util.*;
+
+public class ex8 {
+	public static void main(String[] args) {
+		int n;
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		boolean p=poweroftwo(n);
+		System.out.println(p);
+	}
+	public static boolean poweroftwo(int n)
+	{
+		while(n!=0)
+		{
+			n=n/2;
+		}
+		if(n==1)
+			return true;
+		else
+			return false;
+		
+	}
+
+
+}
