@@ -7,6 +7,7 @@ public class ex6 {
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		System.out.println(ex6.calculateDifference (n));
+		sc.close();
 	}
 	public static int calculateDifference (int n)
 	{

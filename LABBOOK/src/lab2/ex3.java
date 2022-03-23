@@ -17,6 +17,7 @@ public static void main(String[] args) {
 		System.out.println(k[l]);
 		
 	}
+	sc.close();
 	
 }
 public static int[] getsorted(int[] a)

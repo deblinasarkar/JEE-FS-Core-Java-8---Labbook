@@ -1,6 +1,8 @@
 package lab1;
 import java.util.*;
 
+import org.junit.jupiter.api.Test;
+
 public class ex1 {
 public static void main(String[] args) {
 	int n;
@@ -15,8 +17,10 @@ public static void main(String[] args) {
 	{
 		System.out.println(ex1.sumofcubes(n));
 	}
+	sc.close();
 	
 }
+@Test
 public static int sumofcubes(int n)
 {
 	int r=1,s=0;

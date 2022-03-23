@@ -8,6 +8,7 @@ public class ex8 {
 		n=sc.nextInt();
 		boolean p=checkNumber(n);
 		System.out.println(p);
+		sc.close();
 	}
 	public static boolean checkNumber (int n)
 	{

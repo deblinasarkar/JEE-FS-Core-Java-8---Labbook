@@ -18,6 +18,7 @@ public class ex3 {
 		break;
 		default: System.out.println("Invalid");
 		}
+		sc.close();
 	}
 	public static int fiborecursive(int n)
 	{

@@ -20,10 +20,10 @@ public static void main(String[] args) {
 		int o=ex1.getSecondSmallest(n,a);
 		System.out.println(o);
 	}
+	sc.close();
 }
 public static int getSecondSmallest(int n,int[] a)
 {
-	int o;
 	int i;
 	for(i=0;i<n-1;i++)
 	{

@@ -12,6 +12,7 @@ public class ex4 {
 			a[i]=sc.nextInt();
 		}
 		ex4.modifyArray(a);
+		sc.close();
 	}
 	public static void modifyArray(int[] a)
 	{

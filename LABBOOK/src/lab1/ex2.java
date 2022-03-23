@@ -7,6 +7,7 @@ public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	ch=sc.nextInt();
 	ex2.message(ch);
+	sc.close();
 }
 public static void message(int ch)
 {

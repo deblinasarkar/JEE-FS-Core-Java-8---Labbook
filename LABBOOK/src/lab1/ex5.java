@@ -7,6 +7,7 @@ public class ex5 {
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		System.out.println(calculateSum (n));
+		sc.close();
 	}
 	public static int calculateSum (int n)
 	{

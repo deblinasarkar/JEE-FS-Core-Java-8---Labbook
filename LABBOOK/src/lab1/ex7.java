@@ -8,6 +8,7 @@ public static void main(String[] args) {
 	n=sc.nextInt();
 	boolean b=ex7.checkNumber(n);
 	System.out.println(b);
+	sc.close();
 }
 public static boolean checkNumber (int n)
 {

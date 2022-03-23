@@ -8,6 +8,7 @@ public class ex4 {
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		ex4.prime(n);
+		sc.close();
 	}
 	public static void prime(int n)
 	{
