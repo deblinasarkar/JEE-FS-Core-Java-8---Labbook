@@ -1,8 +1,0 @@
-package com.cg.feb22.oop.intro;
-
-public class PolyDemo {
-Calc c=new Calc();
-c.add(10,20);
-c.add(10,20,30);
-c.add(10,20,30,40);
-}

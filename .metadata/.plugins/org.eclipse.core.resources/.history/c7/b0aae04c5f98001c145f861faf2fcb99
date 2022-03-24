@@ -1,8 +1,0 @@
-package com.cg.feb22.misc;
-
-public class EnumDemo {
-	public static void main(String[] args) {
-		Weekdays day= Weekdays.MONDAY;
-		System.out.println(day);
-	}
-}

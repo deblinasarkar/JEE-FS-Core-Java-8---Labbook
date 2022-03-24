@@ -1,8 +1,0 @@
-INDEX VERSION 1.131+F:\capgemini adapt\JAVA CODE\.metadata\.plugins\org.eclipse.jdt.core
-2939089989.index
-2204905541.index
-1805193513.index
-3724764564.index
-1051458167.index
-797083550.index
-1865797976.index
